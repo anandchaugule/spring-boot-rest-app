@@ -1,4 +1,4 @@
-package com.synechron.model;
+package com.techonwards.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
