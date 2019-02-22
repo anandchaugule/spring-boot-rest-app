@@ -97,6 +97,8 @@ if [ -z "$M2_HOME" ] ; then
   cd "$saveddir"
   # echo Using m2 at $M2_HOME
 fi
+# Maven Build
+mvn install -DskipTests
 
 # For Cygwin, ensure paths are in UNIX format before anything is touched
 if $cygwin ; then
