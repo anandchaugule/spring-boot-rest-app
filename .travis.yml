@@ -2,6 +2,6 @@ language: java
 # before_install:
 #   - chmod +x mvnw
 install:
-  - mvn install -DskipTests
-  - mvn test -DskipTests
+  - mvn clean install -DskipTests
+#   - mvn test -DskipTests
 script: true
